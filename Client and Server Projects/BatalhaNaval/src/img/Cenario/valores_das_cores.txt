@@ -1,0 +1,10 @@
+Cor da água: 
+
+HEX: #238BB0  
+RGB: 35,139,176
+
+
+Cor da linha (dos quadrados): 
+
+HEX: #27AAE1
+RGB: 39,170,225
