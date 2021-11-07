@@ -1,5 +1,7 @@
 # Battleship Game - Using Sockets
 
+![initial screen of client](misc/client_initial_screen.gif "Client")
+
 A Battleship game developed in 2019 using Java and sockets that can be played by two players.
 This game was proposed in a college assignment of the subject Networks. The description (portuguese only) of this assignment can be found [here](description-tp2sockets2019.pdf).
 
@@ -20,6 +22,13 @@ Go to the directory **./"Client and Server Projects"/ServidorBatalhaNaval/** and
 
 - Configuration screen:
 
+    - N: Game table size (NxN)
+    - X: Ship size
+    - Y: Number of ships
+    - Z: Number of moves a player can make
+    - "Largura Grid": Grid width
+    - "Altura Grid": Grid height
+
 ![configuration screen of the server](misc/server_configuration_screen.png "Server")
 
 # Running the Battleship Client
@@ -30,11 +39,7 @@ Go to the directory **./"Client and Server Projects"/BatalhaNaval/** and execute
 
 > java -cp "lib/batik-bin-1.11/batik-1.11/lib/batik-all-1.11.jar;src/build;lib/batik-bin-1.11/batik-1.11/lib/xml-apis-ext-1.3.04.jar;lib/batik-bin-1.11/batik-1.11/lib/xmlgraphics-commons-2.3.jar;src" batalhanaval.BatalhaNaval
 
-After starting the client, press the button "JOGAR" if the server is online. Then it'll wait for a second player to join and start the game. Thus, you need to execute two clients and the server to play the game.
-
-- Initial screen:
-
-![initial screen of client](misc/client_initial_screen.gif "Client")
+After starting the client, press the button "JOGAR" if the server is online. Then it'll wait for a second player to join and start the game. Therefore, you need to execute three different process to play the game: two clients and the server.
 
 - Playing:
 
