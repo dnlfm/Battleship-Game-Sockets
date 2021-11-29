@@ -10,6 +10,15 @@ This game was proposed in a college assignment of the subject Networks. The desc
 **Requirements:**
 - Java 8 or newer versions
 
+# Concept
+
+The players can see both players' boards that are updated after each move:
+- the left board is the player's board and is revealed;
+- the board on the right is the opponent's board and is not revelead at the start, but each square is revealed after a shot is fired at it.
+
+The figure below shows an example of this concept, and involves 3 types of vessels: canoe, submarine and warship.
+
+![Concept](misc/concept.jpg "Concept")
 
 # Running the Battleship Server
 
