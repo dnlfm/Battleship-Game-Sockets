@@ -24,10 +24,11 @@ The figure below shows an example of this concept, and involves 3 types of vesse
 
 Go to the directory **./"Client and Server Projects"/ServidorBatalhaNaval/** and execute the following commands in the terminal to compile and execute, respectively:
 
-> javac -encoding UTF8 -cp . src/servidorbatalhanaval/*.java -d src/build
+```
+javac -encoding UTF8 -cp . src/servidorbatalhanaval/*.java -d src/build
 
-> java -cp "src/build;src" servidorbatalhanaval.ServidorBatalhaNaval
-
+java -cp "src/build;src" servidorbatalhanaval.ServidorBatalhaNaval
+```
 
 - Configuration screen:
 
@@ -43,11 +44,11 @@ Go to the directory **./"Client and Server Projects"/ServidorBatalhaNaval/** and
 # Running the Battleship Client
 
 Go to the directory **./"Client and Server Projects"/BatalhaNaval/** and execute the following commands in the terminal to compile and execute, respectively:
+```
+javac -d src/build -encoding UTF8 -cp "lib/batik-bin-1.11/batik-1.11/lib/batik-all-1.11.jar;lib/batik-bin-1.11/batik-1.11/lib/xml-apis-ext-1.3.04.jar;lib/batik-bin-1.11/batik-1.11/lib/xmlgraphics-commons-2.3.jar;." src/batalhanaval/*.java src/batalhanaval/utils/*.java
 
-> javac -d src/build -encoding UTF8 -cp "lib/batik-bin-1.11/batik-1.11/lib/batik-all-1.11.jar;lib/batik-bin-1.11/batik-1.11/lib/xml-apis-ext-1.3.04.jar;lib/batik-bin-1.11/batik-1.11/lib/xmlgraphics-commons-2.3.jar;." src/batalhanaval/*.java src/batalhanaval/utils/*.java
-
-> java -cp "lib/batik-bin-1.11/batik-1.11/lib/batik-all-1.11.jar;src/build;lib/batik-bin-1.11/batik-1.11/lib/xml-apis-ext-1.3.04.jar;lib/batik-bin-1.11/batik-1.11/lib/xmlgraphics-commons-2.3.jar;src" batalhanaval.BatalhaNaval
-
+java -cp "lib/batik-bin-1.11/batik-1.11/lib/batik-all-1.11.jar;src/build;lib/batik-bin-1.11/batik-1.11/lib/xml-apis-ext-1.3.04.jar;lib/batik-bin-1.11/batik-1.11/lib/xmlgraphics-commons-2.3.jar;src" batalhanaval.BatalhaNaval
+```
 After starting the client, press the button "JOGAR" if the server is online. Then it'll wait for a second player to join and start the game. Therefore, you need to execute three different process to play the game: two clients and the server.
 
 - Playing:
